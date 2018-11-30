@@ -5,7 +5,7 @@ const logger = require('morgan');
 const Cloudant = require('@cloudant/cloudant');
 const bodyParser = require('body-parser');
 const cfenv = require('cfenv');
-const vcapLocal = (require('./vcap-local.json')) ? require('./vcap-local.json') : {};
+const vcapLocal = {}; //(require('./vcap-local.json')) ? require('./vcap-local.json') : {};
 
 // Global constants
 const app = express();
