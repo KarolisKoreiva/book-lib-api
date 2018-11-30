@@ -1,0 +1,25 @@
+{
+  "name": "book-lib-api",
+  "version": "1.0.0",
+  "description": "Online books library api",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Books",
+    "Library"
+  ],
+  "author": "Karolis Koreiva",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudant/cloudant": "^3.0.0",
+    "cfenv": "^1.1.0",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  },
+  "engines": {
+    "node": "9.8.0",
+    "npm": "6.4.1"
+  }
+}
